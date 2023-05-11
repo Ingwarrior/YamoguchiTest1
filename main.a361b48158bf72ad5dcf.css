@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap);
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*::before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	
+	font-size: 100%;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+
+
+.conteiner{width:100%;height:100%;padding:0;margin:0}.conteiner__wrapper{width:100%;height:100%;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:50px}.conteiner__wrapper .main-photo{display:flex;flex-direction:column;justify-content:center;align-items:center}.conteiner__wrapper .main-photo .photo-sup img{width:600px;max-width:100%;-o-object-fit:cover;object-fit:cover}.conteiner__wrapper .main-photo .photo-sub img{width:600px;max-width:100%;-o-object-fit:cover;object-fit:cover;padding:0px 50px}.conteiner__wrapper .main-photo .photo-button{position:fixed;font-family:"Ubuntu";font-style:normal;font-weight:300}.conteiner__wrapper .main-photo .photo-button button{width:70px;height:70px;border-radius:100px;background-color:#a6ffff;font-size:22px}.conteiner__wrapper .main-photo .active{animation:sub 4s linear forwards}.conteiner__wrapper .main-photo .actives{animation:sup 4s linear forwards}@keyframes sub{0%{position:relative;top:1px}100%{position:relative;top:40px}}@keyframes sup{0%{position:relative;top:40px}100%{position:relative;top:1px}}.conteiner__wrapper .main-text{display:flex;flex-direction:column;font-family:"Ubuntu",sans-serif;font-style:normal;font-weight:300;gap:20px}.conteiner__wrapper .main-text h1{color:#0b64fe;font-size:61px}.conteiner__wrapper .main-text p{font-size:22px}@media(max-width: 1000px){.conteiner__wrapper{width:100%;height:100%;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:20px}.conteiner__wrapper .main-photo{display:flex;flex-direction:column;justify-content:center;align-items:center}.conteiner__wrapper .main-photo .photo-sup img{width:600px;max-width:100%;-o-object-fit:cover;object-fit:cover}.conteiner__wrapper .main-photo .photo-sub img{width:600px;max-width:100%;-o-object-fit:cover;object-fit:cover;padding:0px 45px}.conteiner__wrapper .main-photo .photo-button{position:fixed;font-family:"Ubuntu";font-style:normal;font-weight:300}.conteiner__wrapper .main-photo .photo-button button{width:70px;height:70px;border-radius:100px;background-color:#a6ffff;font-size:22px}.conteiner__wrapper .main-photo .active{animation:sub 4s linear forwards}.conteiner__wrapper .main-photo .actives{animation:sup 4s linear forwards}@keyframes sub{0%{position:relative;top:1px}100%{position:relative;top:40px}}@keyframes sup{0%{position:relative;top:40px}100%{position:relative;top:1px}}.conteiner__wrapper .main-text{display:flex;flex-direction:column;font-family:"Ubuntu",sans-serif;font-style:normal;font-weight:300;gap:20px}.conteiner__wrapper .main-text h1{color:#0b64fe;font-size:41px}.conteiner__wrapper .main-text p{font-size:18px}}@media(max-width: 400px){.conteiner__wrapper{max-width:390px;height:100%;display:flex;flex-direction:column;justify-content:center}.conteiner__wrapper .main-photo{display:flex;flex-direction:column;justify-content:center;align-items:center}.conteiner__wrapper .main-photo .photo-sup img{width:250px;max-height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover}.conteiner__wrapper .main-photo .photo-sub img{width:250px;max-height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover;padding:0px 20px}.conteiner__wrapper .main-photo .photo-button{font-family:"Ubuntu";font-style:normal;font-weight:300}.conteiner__wrapper .main-photo .photo-button button{width:50px;height:50px;border-radius:100px;background-color:#a6ffff;font-size:14px;position:relative;top:20px}.conteiner__wrapper .main-photo .active{animation:sub 4s linear forwards}.conteiner__wrapper .main-photo .actives{animation:sup 4s linear forwards}@keyframes sub{0%{position:relative;top:1px}100%{position:relative;top:30px}}@keyframes sup{0%{position:relative;top:30px}100%{position:relative;top:1px}}.conteiner__wrapper .main-text{display:flex;flex-direction:column;font-family:"Ubuntu",sans-serif;font-style:normal;font-weight:300}.conteiner__wrapper .main-text h1{color:#0b64fe;font-size:31px}.conteiner__wrapper .main-text p{font-size:18px}}
